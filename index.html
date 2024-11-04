@@ -1,11 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt" data-bs-theme="dark" class="h-100">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
     <title>Fork e Pull Request - Exemplo simples e prático - 11</title>
 </head>
-<body>
-    <h1>Exercicios Fork e Pull Request</h1>
+<body class="d-flex align-items-center py-4 bg-body-tertiary h-100">
+    <main class="w-100 m-auto form-container">
+                
+        <form action="action_confirmation.html">
+            <img src="icons/bootstrap-outline.svg" alt="" class="m-4" width="72" height="57">
+            <h1 class="h3 mb-3 fw-normal">Exercicios Fork e Pull Request</h1>
+
+            <div class="form-floating">                                
+                <input type="text" id="floatingText" class="form-control" placeholder="seu nome" name="nome" >
+                <label for="floatingText" >Nome:</label>
+            </div><br>
+            <div class="form-floating">                                
+                <input type="email" id="floatingInput" class="form-control" placeholder="seu-email@dominio.com" name="email" >
+                <label for="floatingInput" >E-mail:</label>
+            </div><br>
+
+            <div class="form-floating">                                
+                <input type="number" id="floatingNumberInput" class="form-control" placeholder="Digite o número do seu documento">
+                <label for="floatingNumberInput" >Número do Documento:</label>
+            </div><br>
+
+            <div class="form-check text-start my-3">
+                <input type="checkbox" class="form-check-input" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">Lembre-me</label>
+            </div>
+            <button class="btn btn-primary w-100 py-2">Enviar</button>
+        </form> 
+
+        <p class="text-body-secundary mt-5 mb-3">© 2017 - 2024</p>
+    </main>
+    
+
 </body>
 </html>
